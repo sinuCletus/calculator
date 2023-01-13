@@ -1,2 +1,3 @@
 # calculator
-calculator project from The Odin Project fundamentals
+
+Calculator project from The Odin Project fundamentals.
