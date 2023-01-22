@@ -1,0 +1,16 @@
+.shell  {
+    width: 50%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+}
+
+button {
+    width: 24%;
+    max-width: 200px;
+}
+
+.clear-delete {
+    width: 49%;
+}
