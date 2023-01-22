@@ -1,16 +1,75 @@
-.shell  {
+.shell {
     width: 50%;
     max-width: 500px;
+    min-width: 300px;
     margin-left: auto;
     margin-right: auto;
     padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.model {
+    flex-basis: 100%;
+}
+
+.display {
+    height: 50px;
+    flex-basis: 100%;
+    background-color: whitesmoke;
+}
+
+.keys {
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
 }
 
 button {
-    width: 24%;
-    max-width: 200px;
+    height: 50px;
+    
+}
+
+.reset {
+    flex-basis: 100%;
+    display: flex;
+    border: 1px solid black;
 }
 
 .clear-delete {
-    width: 49%;
+    flex-grow: 1;
+    width: 45%;
+    background-color: palevioletred;
+}
+
+.numbers {
+    flex-basis: 79%;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.number {
+    background-color: azure;
+    flex-grow: 1;
+    width: 33%;
+    height: 25%;
+    margin: 0;
+}
+
+.lastRow {
+    width: 33%;
+    height: 25%;
+}
+
+button[type=submit] {
+    background-color: mediumaquamarine;
+}
+
+.operators {
+    flex-basis: 19%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
 }
