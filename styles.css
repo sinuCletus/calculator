@@ -5,7 +5,7 @@ header {
 }
 
 .shell {
-    width: 25%;
+    max-width: 25%;
     min-width: 300px;
     height: 70%;
     margin-left: auto;
@@ -20,7 +20,15 @@ header {
 }
 
 .display {
-    height: 75px;
+    min-height: 75px;
+    max-height: fit-content;
+    max-width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow-wrap: break-word;
+    align-items: flex-end;
+    justify-content: space-around;
     border: 1px solid black;
     border-radius: 20px;
     margin-bottom: 10px;
@@ -30,6 +38,7 @@ header {
 
 button {
     height: 75px;
+    cursor: pointer;
 }
 
 .keys {

@@ -11,29 +11,32 @@
 <body>
     <header>Calc-U-Later</header>
     <div class="shell">
-        <div class="display"></div>
+        <div class="display">
+            <div id="current"></div>
+            <div id="total"></div>
+        </div>
         <div class="keys">
             <div class="reset">
                 <button class="clear-delete">Clear</button>
                 <button class="clear-delete">Delete</button>
             </div>
             <div class="numbers">
-                <button class="number">9</button>
-                <button class="number">8</button>
-                <button class="number">7</button>
-                <button class="number">6</button>
-                <button class="number">5</button>
-                <button class="number">4</button>
-                <button class="number">3</button>
-                <button class="number">2</button>
-                <button class="number">1</button>
+                <button class="number" value="9">9</button>
+                <button class="number" value="8">8</button>
+                <button class="number" value="7">7</button>
+                <button class="number" value="6">6</button>
+                <button class="number" value="5">5</button>
+                <button class="number" value="4">4</button>
+                <button class="number" value="3">3</button>
+                <button class="number" value="2">2</button>
+                <button class="number" value="1">1</button>
                 <button class="lastRow">.</button>
-                <button class="number lastRow">0</button>
+                <button class="number lastRow" value="0">0</button>
                 <button type="submit" class="lastRow">=</button>
             </div>
                 <div class="operators">
                 <button class="operator">x</button>
-                <button class="operator">&#247;</button>
+                <button class="operator">/</button>
                 <button class="operator">+</button>
                 <button class="operator">-</button>
             </div>
@@ -41,5 +44,6 @@
             
         </div>
     </div>
+    <script src="scripts.js"></script>
 </body>
 </html>
